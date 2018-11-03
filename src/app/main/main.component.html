@@ -1,7 +1,6 @@
 <div class="ui container">
     <div class="ui three item menu">
         <a class="item" routerLink="/"><i class="large home icon"></i>Home</a>
-        <a class="item" routerLink="/room"><i class="large rocketchat icon"></i> Sample Room</a>
         <a class="item" routerLink="/manage"> <i class="large user circle icon"></i> Login</a>
       </div>
 
@@ -27,9 +26,9 @@
   <br />
   <br />
 
-  <div class="ui three column grid">
+  <div class="ui three column stackable grid">
     <div class="column">
-      <div class="ui fluid card">
+      <div class="ui fluid card" routerLink="/room">
         <div class="image">
           <img src="http://shivansh360.com/wp-content/uploads/2018/02/Women-Leadership-1024x768.jpg">
         </div>
@@ -38,18 +37,9 @@
         </div>
       </div>
     </div>
+
     <div class="column">
-      <div class="ui fluid card">
-        <div class="image">
-          <img src="https://talent-for-change.com/wp-content/uploads/womens-career-coaching-coach-uk.jpg">
-        </div>
-        <div class="content">
-          <a class="header">Women’s Economic Empowerment</a>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="ui fluid card">
+      <div class="ui fluid card" routerLink="/room">
         <div class="image">
           <img src="https://pkgs.org.my/sites/default/files/field/image/content/non-gallery/say-no.jpg">
         </div>
@@ -58,10 +48,7 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="ui three column grid">
-    <div class="column">
+    <div class="column" routerLink="/room">
       <div class="ui fluid card">
         <div class="image">
           <img src="https://www.cambridgeshirechamber.co.uk/imagelibrary/Business%20Women%20icon%20png.png">
@@ -72,7 +59,17 @@
       </div>
     </div>
     <div class="column">
-      <div class="ui fluid card">
+        <div class="ui fluid card" routerLink="/room">
+          <div class="image">
+            <img src="https://talent-for-change.com/wp-content/uploads/womens-career-coaching-coach-uk.jpg">
+          </div>
+          <div class="content">
+            <a class="header">Women’s Economic Empowerment</a>
+          </div>
+        </div>
+      </div>
+    <div class="column">
+      <div class="ui fluid card" routerLink="/room">
         <div class="image">
           <img src="https://esrc.ukri.org/esrc/cache/file/26AF00C5-0511-4AA9-8C8B1F692484DB6F.jpeg">
         </div>
@@ -82,7 +79,7 @@
       </div>
     </div>
     <div class="column">
-      <div class="ui fluid card">
+      <div class="ui fluid card" routerLink="/room">
         <div class="image">
           <img src="https://s.aolcdn.com/hss/storage/midas/36e7f8e23e7b62f890e8e1e430725324/203233670/583690223.jpg">
         </div>
